@@ -1,0 +1,15 @@
+Ejemplo para ir a un commit específico. Se podría hacer lo siguiente:
+
+1.- Escribir los logs de forma abreviada
+
+git log --pretty=oneline --abbrev-commit
+
+2.- Eliminar commits
+
+git rebase -i HEAD~3
+
+Presione Esc en el teclado y escriba :w para guardar el archivo y :q para salir de Vim.
+
+3.- Subir los cambios
+
+git push origin +main
